@@ -1,0 +1,13 @@
+# Use eureka default port 8761, use bridge connect on docker on 192.168.119.8
+server:
+  port: 8761
+
+spring:
+  application:
+    name: livegoods-eureka-server
+
+# standalone version on 192.168.119.8
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

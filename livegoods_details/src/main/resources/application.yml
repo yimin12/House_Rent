@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: livegoods-details
+  profiles:
+    active: mongodb,bannerNginx,redis
+
+server:
+  port: 9004
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.119.8.8761/eureka/
+  instance:
+    prefer-ip-address: true

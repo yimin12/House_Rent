@@ -1,0 +1,6 @@
+livegoods:
+  cache:
+    names:
+      item:
+        prefix: yimin:livegoods:details
+        suffix: getDetails

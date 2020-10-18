@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: livegoods-message-consumer
+  profiles:
+    active: itemCacheName,buyQueue,mongodb,redis
+  rabbitmq:
+    host: 1092.168.119.10
+    username: admin
+    password: admin
